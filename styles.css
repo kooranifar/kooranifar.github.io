@@ -1,0 +1,106 @@
+@font-face { 
+    src: url(manualfonts/cmunrm.ttf);
+    font-family: Computer Modern;
+}
+
+@font-face {
+    src: url(manualfonts/Niloofar.ttf);
+    font-family: Niloofar;
+}
+
+@font-face {
+  src: url(manualfonts/times_new_roman.ttf);
+  font-family: myTimes;
+}
+
+body {
+    background-color:#0C1B33;
+    /* 12355B */
+    /* height: 100%; */
+    /* border-right: solid 5px #424C55; */
+
+    /*  #2A4738*/
+    color: black;
+    /* #DFC46A */
+    font-family: Computer Modern;
+    font-size: x-large;
+    margin-right:10%;
+    margin-left: 10%;
+    /* margin-top: 10%; */
+    margin-bottom: 10%;
+    text-align: justify;
+  }
+.qermez {
+  height: 100%;
+  border: solid 10px #C8963E;
+
+  background-color: white;
+  margin-block-start: 1cm;
+  /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 99.5%, rgba(159,159,159,1) 100%); */
+}
+
+.textborder {
+  margin: 30px 20px 10px 20px;
+}
+  
+  h1 {
+    color: white;
+    /* #DFC46A */
+    text-align: left;
+    /* margin-bottom: ; */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+
+    font-weight:lighter;
+  
+  }
+  
+  .persian {
+    direction: rtl;
+    font-family: Niloofar;
+    font-size: inherit;
+  }
+
+  a:link {
+    color: blue;
+    /* #DFC46A */
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  hr{
+    border: 1px solid white;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-size: 20px; */
+    /* font-size: larger; */
+    font-weight: bold;
+    /* color: blue; */
+    /* border-top: solid 1px grey; */
+    /* margin-left: 20px; */
+    /* #3C6751 */
+ }
+
