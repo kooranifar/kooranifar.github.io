@@ -3,6 +3,16 @@
     font-family: Computer Modern;
 }
 
+@font-face { 
+  src: url(manualfonts/cmunci.ttf);
+  font-family: Computer Modern Italic;
+}
+
+@font-face { 
+  src: url(manualfonts/cmunbx.ttf);
+  font-family: Computer Modern Bold;
+}
+
 @font-face {
     src: url(manualfonts/Niloofar.ttf);
     font-family: Niloofar;
@@ -62,6 +72,17 @@ body {
     font-size: inherit;
   }
 
+  i {
+    font-style: normal;
+    font-family: Computer Modern Italic;
+  }
+
+  b {
+    /* font-family: Computer Modern Bold; */
+    font-weight: bold;
+  }
+  
+
   a:link {
     color: blue;
     /* #DFC46A */
@@ -86,6 +107,11 @@ body {
 
   hr{
     border: 1px solid white;
+  }
+
+  hr.black {
+    border: 1px solid black;
+
   }
 
   footer {
