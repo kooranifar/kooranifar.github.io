@@ -17,6 +17,18 @@
 <lastmod>2019-01-04T00:00:00+03:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/Graphic-Designer-On-The-Road-copy-2</loc>
+<lastmod>2020-01-05T00:00:00+03:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Graphic-Designer-On-The-Road-copy-3</loc>
+<lastmod>2020-01-05T00:00:00+03:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Graphic-Designer-On-The-Road-copy</loc>
+<lastmod>2020-01-05T00:00:00+03:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/Graphic-Designer-On-The-Road</loc>
 <lastmod>2020-01-05T00:00:00+03:30</lastmod>
 </url>
@@ -34,5 +46,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page3/</loc>
 </url>
 </urlset>

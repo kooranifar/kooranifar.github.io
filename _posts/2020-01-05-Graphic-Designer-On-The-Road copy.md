@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Category Theory"
+title: "ممد تئوری"
 description: "A graphic designer is a professional within the graphic design and graphic arts industry."
 date: 2020-01-05
 usemathjax: true

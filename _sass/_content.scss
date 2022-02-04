@@ -4,11 +4,11 @@
 
 .post {
   border-bottom: 1px solid _palette(border);
-  padding: 3.33333em 0 1.66667em;
+  padding: 1.33333em 0 0em;
 }
 
 .post-header {
-  margin-bottom: 1.66667em;
+  margin-bottom: 1em;
 }
 
 .post-date {
@@ -35,8 +35,8 @@
 }
 
 .post-title {
-  font-size: 2rem;
-  margin: 0 0 1rem;
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem;
 
   @media only screen and (max-width: 600px) {
     font-size: 1.875rem; // 1.875rem
