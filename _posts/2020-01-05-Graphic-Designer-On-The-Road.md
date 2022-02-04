@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Category Theory"
+title: "Category Theoryy"
 description: "A graphic designer is a professional within the graphic design and graphic arts industry."
 date: 2020-01-05
 usemathjax: true
-tags: [tips, work, mammad]
+tags: [category theory, work, mammad]
 ---
 
 Xob in alaan daare xeili xoob kaar mikone, baraaye inline $mesl e mamool$ va baraaye mathmode ye slash ezaafe bayad gozasht $mammad$. .

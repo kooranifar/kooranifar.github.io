@@ -5,12 +5,12 @@
         <description></description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 04 Feb 2022 18:23:14 +0330</pubDate>
-        <lastBuildDate>Fri, 04 Feb 2022 18:23:14 +0330</lastBuildDate>
+        <pubDate>Fri, 04 Feb 2022 21:32:00 +0330</pubDate>
+        <lastBuildDate>Fri, 04 Feb 2022 21:32:00 +0330</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
             <item>
-                <title>Category Theory</title>
+                <title>Category Theoryy</title>
                 <description>&lt;p&gt;Xob in alaan daare xeili xoob kaar mikone, baraaye inline $mesl e mamool$ va baraaye mathmode ye slash ezaafe bayad gozasht $mammad$. .&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -46,7 +46,7 @@
                 <link>http://localhost:4000/Graphic-Designer-On-The-Road</link>
                 <guid isPermaLink="true">http://localhost:4000/Graphic-Designer-On-The-Road</guid>
                 
-                <category>tips</category>
+                <category>category theory</category>
                 
                 <category>work</category>
                 
