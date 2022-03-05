@@ -13,8 +13,15 @@
   font-family: myTimes;
 }
 
+html {
+  /* 60463b qahve i shaax o mahzoon, 997a66 shaadtar va pale, 6f5e53 qahve i xaakestari sexy o modern */
+  border-right: 20vw solid #3c6e71;
+  border-left: 20vw solid  #3c6e71;
+}
+
+
 body {
-    background-color:#0C1B33;
+    background-color:#F5F5F5; /* cultured */
     /* 12355B */
     /* height: 100%; */
     /* border-right: solid 5px #424C55; */
@@ -32,9 +39,9 @@ body {
   }
 .qermez {
   height: 100%;
-  border: solid 10px #C8963E;
+  /* border: solid 6px #C8963E; */
 
-  background-color: white;
+  /* background-color: white; */
   margin-block-start: 1cm;
   /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 99.5%, rgba(159,159,159,1) 100%); */
 }
@@ -44,7 +51,7 @@ body {
 }
   
   h1 {
-    color: white;
+    color: black;
     /* #DFC46A */
     text-align: left;
     /* margin-bottom: ; */
@@ -63,33 +70,33 @@ body {
   }
 
   a:link {
-    color: blue;
+    color: darkblue;
     /* #DFC46A */
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
   }
   a:visited {
-    color: blue;
+    color: darkblue;
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color: blue;
+    color: darkblue;
     background-color: transparent;
     text-decoration: underline;
   }
   a:active {
-    color: blue;
+    color: darkblue;
     background-color: transparent;
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
 
   hr{
-    border: 1px solid white;
+    border: 0.1px solid black;
   }
 
   footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -97,7 +104,7 @@ body {
     /* font-family: 'Times New Roman', Times, serif; */
     /* font-size: 20px; */
     /* font-size: larger; */
-    font-weight: bold;
+    /* font-weight: bold; */
     /* color: blue; */
     /* border-top: solid 1px grey; */
     /* margin-left: 20px; */
