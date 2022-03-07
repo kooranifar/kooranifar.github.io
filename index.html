@@ -3,60 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script>
+		MathJax = {
+		  tex: {
+			inlineMath: [['$', '$'], ['\\(', '\\)']]
+		  }
+		};
+		</script>
+		<!-- asl e maajara -->
+		<script id="MathJax-script" async
+		  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Borromean Rings</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-        
-        <h1>Borromean Rings</h1>
-        <div class='qermez'>
-            <div class='textborder'>
-                <a href="about.html"> About</a>
-        
-        <p style="margin-bottom: 3cm;"></p>
+    <div class="wholeborder">
+        <h1 style="margin-left: 10px;padding-top: 1.5cm; padding-bottom: 1cm;" ><boldcmu>Borromean Rings</boldcmu></h1>
+        <div class="navigation_bar">
             <ul>
-                <h2><a href="mathematics.html"> Mathematics</a></h2>
-                <h2><a href="other.html">Other</a></h2> 
-            </ul>
-            <hr>
-        <h3><b> Latest post:</b></h3>
-    </div></div>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="archive.html">Archive</a></li>
+                <li style="float: right;"><a href="#contact">Contact</a></li>
+                <li style="float: right;"><a href="about.html"> About</a></li>
+              </ul>
+        </div>
+        <div class='qermez'>
+            <div class='textborder'>        
+                <h2><boldcmu>What is a propostion?</boldcmu></h2>
+                <p style="color: grey; font-size: smaller; padding-bottom: 0.5cm;"> 6 March 2022</p>
+                The discussion here is a rethinking of me about another discussion with friends, which was about formalizing some other statement in propositional logic.
+                For now, the statement is this,
+                $$ \text{I can go running.} $$
+                And we are asked to formalize this statement in propositional logic language. It was proposed that this statement itself can be considered as a proposition. But I have got into troubles in accepting that. There are two reasons for my resistance...
+                              
+                    <br>
+                    <a style="float: right;" href="mathematics/article.html"> continue reading &#8594;</a>
+            </div>
+            <br><br> 
+            <hr style="border: 0; border-top: solid 1px #CCC; width: 80%; margin: auto;">
+            <div class='textborder'>        
+                <h2 style="margin-top: 1.5cm;"><boldcmu>Article 1</boldcmu></h2>
+                <p style="color: grey; font-size: smaller; padding-bottom: 0.5cm;"> 6 March 2022</p>
+                    pas mixaim maxraj ro maximum konim. yekam maxraj ro saade konim,
+                    age $n$ fard baashe, age az ye chizi estefade konim, mitoonim ba'desh dobare mesl e zowj haa edame bedim: mitoonim be in ebaarat be cheshm e ye tabe' e $n$-moteqayyere negah konim...
+                    <br>
+                    <a style="float: right;" href="mathematics/article.html"> continue reading &#8594;</a>
+            </div>
+            <br><br>
+        </div>
 
 
-<script>
+<!-- <script>
     // document.getElementById("demo").innerHTML = document.lastModified;
     var x = document.lastModified;
   document.getElementById("demo").innerHTML = new Date(document.lastModified).toISOString().substr(0, 10);
 
-</script>
+</script> -->
 
-<div id="disqus_thread"></div>
-<script>
-    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
-        var d = document, s = d.createElement('script');
-        
-        // IMPORTANT: Replace EXAMPLE with your forum shortname!
-        s.src = 'https://m-m-kooranifar-homepage.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>
-    Please enable JavaScript to view the 
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
-        comments powered by Disqus.
-    </a>
-</noscript>
-    
 
-<footer>
+<!-- <footer>
         <hr color="black">
         <p>Borromean Rings</p>    
         <p>M. M. Kooranifar's Blog</p>
         <p>kooranifar@ut.ac.ir</p>
-</footer>
-
+</footer> -->
+</div>
 </body>
 </html>

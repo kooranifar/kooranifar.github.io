@@ -3,6 +3,22 @@
     font-family: Computer Modern;
 }
 
+@font-face { 
+  src: url(manualfonts/cmunbx.ttf);
+  font-family: CMUBold;
+}
+
+@font-face {
+  src: url(manualfonts/cmunti.ttf);
+  font-family: CMUIt;
+}
+
+@font-face {
+  src: url(manualfonts/cmunbi.ttf);
+  font-family: CMUBoldIt;
+}
+
+
 @font-face {
     src: url(manualfonts/Niloofar.ttf);
     font-family: Niloofar;
@@ -13,47 +29,82 @@
   font-family: myTimes;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
-  /* 60463b qahve i shaax o mahzoon, 997a66 shaadtar va pale, 6f5e53 qahve i xaakestari sexy o modern */
-  border-right: 20vw solid #3c6e71;
-  border-left: 20vw solid  #3c6e71;
+  /* 60463b qahve i shaax o mahzoon, 997a66 shaadtar va pale, 6f5e53 qahve i xaakestari sexy o modern, 3c6e71 sabz*/
+  background-color: #6f5e53;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* height: 100%; */
 }
 
 
 body {
-    background-color:#F5F5F5; /* cultured */
     /* 12355B */
     /* height: 100%; */
     /* border-right: solid 5px #424C55; */
 
     /*  #2A4738*/
     color: black;
+    background-color:#F5F5F5; /* cultured */
+    min-width: 600px;
+    width: 50%;
+    margin: auto;
     /* #DFC46A */
     font-family: Computer Modern;
+    /* margin-top: -1cm; */
+    /* padding-top: 0cm; */
     font-size: x-large;
-    margin-right:10%;
-    margin-left: 10%;
+    /* margin-right:10%; */
+    /* margin-left: 10%; */
     /* margin-top: 10%; */
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     text-align: justify;
+    /* height: 30cm; */
   }
+
+  .arrow {
+    border: solid darkblue;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.wholeborder {
+  background-color:#F5F5F5; /* cultured */
+  margin-left: 20px;
+  margin-right: 20px;
+  /* min-width: 500px; */
+  /* width: 50%; */
+  /* margin: auto; */
+}
+
 .qermez {
   height: 100%;
   /* border: solid 6px #C8963E; */
 
   /* background-color: white; */
-  margin-block-start: 1cm;
+  margin-block-start: 2cm;
   /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 99.5%, rgba(159,159,159,1) 100%); */
 }
 
 .textborder {
-  margin: 30px 20px 10px 20px;
+  margin: 40px 20px 10px 20px;
 }
   
   h1 {
     color: black;
     /* #DFC46A */
-    text-align: left;
+    /* text-align: left; */
     /* margin-bottom: ; */
   }
 
@@ -110,4 +161,51 @@ body {
     /* margin-left: 20px; */
     /* #3C6751 */
  }
+
+ .navigation_bar{
+  font-family: CMUBold;
+  text-decoration: underline;
+  /* background-color: green; */
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  /* padding: 0; */
+  /* margin: 0; */
+ }
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+itcmu {
+  font-family: CMUIt;
+
+}
+
+boldcmu {
+  font-family: CMUBold;
+}
+
+bolditcmu {
+  font-family: CMUBoldIt;
+}
 
