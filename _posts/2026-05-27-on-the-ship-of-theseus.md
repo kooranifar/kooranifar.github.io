@@ -18,7 +18,7 @@ We name things by resemblance. A ship gets a name because it resembles something
 
 The mistake, I think, is to assume there is one criterion hidden in the nature of things, and that the puzzle arises from not having found it yet. There is no such criterion. The world does not come pre-labeled. What is conventional is where we draw the line — and lines can be drawn in more than one place without either placement being wrong.
 
----
+
 
 ## II. The Trouble with Resemblance
 
@@ -32,7 +32,7 @@ There is also the question of what the resemblance is assessed against. Compare 
 
 When two people argue about the ship and cannot agree, I think the productive move is for each to make their criteria explicit. They might discover they care about the same thing and had not noticed — or that they care about genuinely different things, in which case the disagreement dissolves rather than gets resolved. Either outcome is better than assuming there is a hidden answer neither of them has found.
 
----
+
 
 ## III. Zoom In and the Problem Moves
 
@@ -44,7 +44,7 @@ The Ship of Theseus is not, in my view, a local quirk in how we talk about ships
 
 Whether there is a fundamental level where identity is finally sharp is an open question in physics. My intuition leans toward thinking there probably is not — every time we have thought we found the bottom, there has been something smaller inside. But I hold this lightly; it is a bet on how physics will go, not something I can establish from the armchair. If a bedrock level exists, higher-level conventions borrow precision from it. If not, every resolution is provisional all the way down. Either way, the point stands: resolutions are local, borrowed from a finer level, and that finer level faces the same problem.
 
----
+
 
 ## IV. Nothing Persists
 
@@ -56,7 +56,7 @@ Ordinary object-talk is technically false but practically adequate. This should 
 
 The same analysis applies, I think, to persons. The name "I" is attached to a continuously changing material configuration — cells replaced, atoms exchanged, neural states shifting from moment to moment. The name persists not because there is an unchanging self beneath it but because the trajectory is continuous enough, and similar enough across time, to make the name useful. Strictly speaking, there is no persisting self. There is a causal trajectory through matter, with a name attached.
 
----
+
 
 ## V. The Language Problem
 
@@ -65,8 +65,6 @@ There is a difficulty that runs deeper than the puzzle itself. This analysis was
 A more honest formulation replaces "I will have this belief" with something like: at this moment, what we approximately call this person acts on the basis of the neural configuration that currently exists. No persisting self required. But even this is imperfect — the phrase "what we call" still implies a subject doing the calling.
 
 The tool is imperfect. It can still do real work. But it is worth knowing that the medium resists the message.
-
----
 
 ## VI. Can Philosophy Track Anything?
 
