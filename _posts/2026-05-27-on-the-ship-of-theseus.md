@@ -2,6 +2,7 @@
 layout: post
 title: "On the Ship of Theseus"
 date: 2026-05-27
+read_more: true
 ---
 
 The question at the center is an old one. Theseus kept his ship in the harbor as a monument. Over the years, planks rotted and were replaced one by one. Eventually nothing of the original remained. Is it still the same ship? The puzzle has lasted centuries without resolution. What follows argues that the failure to resolve it is not an accident — it is what we should expect.
