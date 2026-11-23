@@ -6,25 +6,26 @@ layout: default
   {{ content }}
 
   {% if site.posts.size > 0 %}
-    <h2>Articles</h2>
+    <h2 class="post-list-heading">Articles</h2>
 
-    {% for post in site.posts %}
-      <article class="post-preview">
-        <h3>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </span>
 
-        <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
 
-        {{ post.excerpt }}
+          {{ post.excerpt }}
 
-        <a href="{{ post.url | relative_url }}">
-          Read more &rarr;
-        </a>
-      </article>
-      <hr>
-    {% endfor %}
+          <a href="{{ post.url | relative_url }}">Read more →</a>
+        </li>
+      {% endfor %}
+    </ul>
   {% endif %}
 </div>
