@@ -2,6 +2,7 @@
 layout: post
 title: "Pure intonation vs. 12 equal temperament musical intervals"
 date: 2025-03-26
+read_more: true
 ---
 
 Given a musical sound <span markdown="0">\(X\)</span>, we can
