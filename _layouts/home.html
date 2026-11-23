@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+  {{ content }}
+
+  {% if site.posts.size > 0 %}
+    <h2>Articles</h2>
+
+    {% for post in site.posts %}
+      <article class="post-preview">
+        <h3>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+
+        <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+
+        {{ post.excerpt }}
+
+        <a href="{{ post.url | relative_url }}">
+          Read more &rarr;
+        </a>
+      </article>
+      <hr>
+    {% endfor %}
+  {% endif %}
+</div>
