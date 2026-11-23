@@ -4,3 +4,7 @@
 $base-font-family: Cochin, Georgia, serif;
 
 @import "minima";
+
+.post-excerpt.has-read-more > p:nth-last-child(2) {
+  display: inline;
+}
