@@ -2,7 +2,6 @@
 ---
 
 @import "minima";
-
-.post-excerpt.has-read-more > p:nth-last-child(2) {
+.post-excerpt.has-read-more p:last-of-type {
   display: inline;
 }
