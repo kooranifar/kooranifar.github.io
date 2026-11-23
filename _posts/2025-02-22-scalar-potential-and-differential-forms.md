@@ -22,8 +22,6 @@ where <span markdown="0">\(d\)</span> is the exterior derivative and
 <span markdown="0">\(\star\)</span> is the Hodge star operator
 determined by the metric and orientation.
 
-<!--more-->
-
 For example, the vector-calculus identity
 
 $$
