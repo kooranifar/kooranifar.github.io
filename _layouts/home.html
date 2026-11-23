@@ -20,10 +20,11 @@ layout: default
               {{ post.title | escape }}
             </a>
           </h3>
-
+          
           {{ post.excerpt }}
-
-          <a href="{{ post.url | relative_url }}">Read more →</a>
+          {% if post.read_more %}
+            <a href="{{ post.url | relative_url }}">Read more →</a>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
