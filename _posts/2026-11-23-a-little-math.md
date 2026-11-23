@@ -4,7 +4,7 @@ title: "A Little Math"
 date: 2026-11-23
 ---
 
-Here is a little example of mathematics on my blog.
+Here is a little example of mathematics on my blog. Some math here $\int x^2 = x^3 /3 +C$
 
 <!--more-->
 
